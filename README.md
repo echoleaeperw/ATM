@@ -38,3 +38,6 @@ The Paper that needs to be used
 3. code: [https://github.com/CaraJ7/CoMat](https://github.com/CaraJ7/CoMat)
 
 
+### paper idea and some thinking
+1. 使用rm_training [https://github.com/microsoft/DKI_LLM/blob/main/SER/rm_training/rm_training.py] 来替换 强化学习中的reward function
+2. 在rm_training 的 value 考虑添加交叉注意力， 文本嵌入和图像嵌入，找到语句中的关键词与图像中的对应  然后再到pool 再forward到 head。
